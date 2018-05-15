@@ -1,14 +1,16 @@
 body{
-	 background-image: url("assets/images/texture"); 
-	 background-color: #cccccc;
+     width: auto;
+    padding: 25px;
+    background-color: #cccccc;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
+    width: auto;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
 }
 
 li {
@@ -17,35 +19,44 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #777777;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/*#logo{
-	float: left;
-	display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}*/
-
 #logo{
 	float: left;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 40px 20px 40px;
     text-decoration: none;
     list-style-type: none;
-    margin: 0;
-    
-    
-    background-color: #333;
+    margin-left: 0px;
+    background-color: #4aaaa5;
+
+}
+
+#wbg{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 15px;
+    width: 67%;
+    padding: 25px;
+
+}
+
+#cnav{
+   margin: 0 auto;
+    width: 70.5%;
+    padding: 0px; 
+}
+
+#port{
+    float: left;
+    margin-right: 20px;
+}
+
+#wHead{
+    background-color: #ffffff;
 }
